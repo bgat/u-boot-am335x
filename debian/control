@@ -1,0 +1,12 @@
+Source: u-boot-am335x
+Section: embedded
+Priority: optional
+Maintainer: Bill Gatliff <bgat@billgatliff.com>
+Build-Depends: flex, bison, debhelper (>= 13)
+Standards-Version: 4.5.1
+
+Package: u-boot-am335x
+Architecture: any
+Depends: ${misc:Depends}
+Description: Das u-boot bootloader for am335x-based targets
+ Pre-built Das u-boot bootloader for am335x-based targets
