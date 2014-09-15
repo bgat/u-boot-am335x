@@ -1,12 +1,12 @@
 Source: u-boot-boneblack
-Section: unknown
+Section: bootloader
 Priority: extra
-Maintainer: Bill Gatliff <bgat@ptuxvm.billgatliff.com>
+Maintainer: Bill Gatliff <bgat@billgatliff.com>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
 
 Package: u-boot-boneblack
-Architecture: all
+Architecture: armhf
 Depends: ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Das U-Boot bootloader for Beaglebone Black
+ The U-Boot bootloader (including MLO) for Beaglebone Blacko
