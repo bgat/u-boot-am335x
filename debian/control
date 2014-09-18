@@ -1,12 +1,12 @@
-Source: u-boot-boneblack
-Section: bootloader
+Source: u-boot-am335x
+Section: unknown
 Priority: extra
 Maintainer: Bill Gatliff <bgat@billgatliff.com>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
 
-Package: u-boot-boneblack
-Architecture: armhf armel
+Package: u-boot-am335x
+Architecture: all
 Depends: ${misc:Depends}
-Description: Das U-Boot bootloader for Beaglebone Black
- The U-Boot bootloader (including MLO) for Beaglebone Black
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>

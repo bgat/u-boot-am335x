@@ -1,4 +1,4 @@
-u-boot-boneblack (0) UNRELEASED; urgency=low
+u-boot-am335x (0) UNRELEASED; urgency=low
 
   NOTE this changelog is generated from git history when the
   source package is built. Any change made to this file will be
