@@ -115,7 +115,7 @@
 		"name=rootfs,start=2688K,size=-,uuid=${uuid_gpt_rootfs}\0" \
 	"optargs=\0" \
 	"mmcdev=0\0" \
-	"mmcroot=/dev/mmcblk0p2 ro\0" \
+	"mmcroot=/dev/mmcblk0p2 rw\0" \
 	"mmcrootfstype=ext4 rootwait\0" \
 	"rootpath=/export/rootfs\0" \
 	"nfsopts=nolock\0" \
