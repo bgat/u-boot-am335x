@@ -114,6 +114,13 @@
 			"uuid=${uuid_gpt_bootloader};" \
 		"name=rootfs,start=2688K,size=-,uuid=${uuid_gpt_rootfs}\0" \
 	"optargs=\0" \
+	"mmcdev=0\0" \
+	"mmcroot=/dev/mmcblk0p2\0" \
+	"mmcrootfstype=ext4 rootwait\0" \
+	"rootpath=/export/rootfs\0" \
+	"nfsopts=nolock\0" \
+	"static_ip=${ipaddr}:${serverip}:${gatewayip}:${netmask}:${hostname}" \
+		"::off\0" \
 	"ramroot=/dev/ram0 rw\0" \
 	"ramrootfstype=ext2\0" \
 	"spiroot=/dev/mtdblock4 rw\0" \
@@ -139,6 +146,7 @@
 		"run ramargs; " \
 		"bootz ${loadaddr} ${rdaddr} ${fdtaddr}\0" \
 	"findfdt="\
+		"setenv fdtfile dtb; " \
 		"if test $board_name = A335BONE; then " \
 			"setenv fdtfile am335x-bone.dtb; fi; " \
 		"if test $board_name = A335BNLT; then " \
