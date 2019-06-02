@@ -1,12 +1,12 @@
 Source: u-boot-am335x
 Section: unknown
-Priority: extra
+Priority: optional
 Maintainer: Bill Gatliff <bgat@billgatliff.com>
-Build-Depends: debhelper (>= 8.0.0)
-Standards-Version: 3.9.3
+Build-Depends: flex, bison, debhelper (>= 10.0.0)
+Standards-Version: 4.3.0
 
 Package: u-boot-am335x
-Architecture: all
+Architecture: any
 Depends: ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Das u-boot bootloader for am335x-based targets
+ Pre-built Das u-boot bootloader for am335x-based targets
