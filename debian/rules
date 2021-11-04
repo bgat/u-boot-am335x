@@ -25,7 +25,6 @@ override_dh_auto_install:
 	mkdir -p $(DESTDIR)/boot
 	cp -v MLO $(DESTDIR)/boot
 	cp -v u-boot-dtb.img $(DESTDIR)/boot
-	cp -v uEnv.txt $(DESTDIR)/boot
 
 override_dh_auto_configure:
 override_dh_auto_test:
