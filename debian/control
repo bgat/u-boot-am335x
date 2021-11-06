@@ -2,7 +2,7 @@ Source: u-boot-am335x
 Section: embedded
 Priority: optional
 Maintainer: Bill Gatliff <bgat@billgatliff.com>
-Build-Depends: flex, bison, debhelper (>= 13)
+Build-Depends: flex, bison, libssl-dev, debhelper-compat (= 13)
 Standards-Version: 4.5.1
 
 Package: u-boot-am335x
